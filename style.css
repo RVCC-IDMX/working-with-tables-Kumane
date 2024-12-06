@@ -1,3 +1,56 @@
 body {
   background-color: aliceblue;
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3EzYm94ZmZpZmF3MTlkNmt2czl5N3Z3bXRpYzdtNWVwZTJoMm85ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iO1SXgxGMJnTxCmAKs/giphy.webp);
+  background-size: contain;
+
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+body h1, p, footer{
+  font-size: 1.5em;
+  text-align: center;
+  text-shadow: 0 0 10px gray;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: block;
+}
+body h1{
+  font-size: 2em;
+}
+table.mytable {
+  border: 2px solid #194BA4;
+  background-color: #D9DAEE;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.mytable td, table.mytable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.mytable tbody td {
+  font-size: 15px;
+}
+table.mytable tr:nth-child(even) {
+  background: #CACEF5;
+}
+table.mytable thead {
+  background: #0427A4;
+  background: -moz-linear-gradient(top, #435dbb 0%, #1d3cad 66%, #0427A4 100%);
+  background: -webkit-linear-gradient(top, #435dbb 0%, #1d3cad 66%, #0427A4 100%);
+  background: linear-gradient(to bottom, #435dbb 0%, #1d3cad 66%, #0427A4 100%);
+}
+table.mytable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #0402A4;
+}
+table.mytable thead th:first-child {
+  border-left: none;
+}
+
+table.mytable tfoot td {
+  font-size: 13px;
 }
